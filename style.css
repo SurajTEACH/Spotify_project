@@ -358,3 +358,76 @@ a{
     opacity: 1;
     cursor: pointer;
 }
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .main {
+        flex-direction: column;
+        height: auto;
+    }
+
+    /* Sidebar hide on mobile */
+    .sidebar {
+        display: none;
+    }
+
+    .main-content {
+        margin-left: 0;
+        border-radius: 0;
+        padding: 1rem;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
+
+    .Music-player {
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem;
+    }
+
+    .album {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .player {
+        width: 100%;
+    }
+
+    .controls {
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .progress {
+        width: 90%;
+    }
+
+    .volumn-bar {
+        width: 60%;
+    }
+
+    .sticky-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .sticky-nav-options {
+        gap: 0.5rem;
+    }
+
+}
